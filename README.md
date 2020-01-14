@@ -14,10 +14,10 @@
  Table of contents
 </h2>
 
-[1- Demo, link to the site](#1-demo)  
-[2- Functions](#2-functions)  
-[3- Install Gridsome](#3-install)  
-[4- Install Dependencies](#4-install-dependencies)  
+[1- Demo, link to the site](#1%demo)  
+[2- Functions](#2%functions)  
+[3- Install Gridsome](#3%install)  
+[4- Install Dependencies](#4%install%dependencies)  
 [5- Delete useless files and folders](#5-delete-useless-files-and-folders)  
 [6- Add](#6-add)  
 [7- Import](#7-import)
@@ -26,7 +26,7 @@
 
 ## 1- Demo
 
-Here is the [No LINK yet]() to my site.
+Here is the [No LINK yet]() to my resume in gridsome.
 
 ---
 
