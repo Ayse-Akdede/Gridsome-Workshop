@@ -203,7 +203,7 @@ export default {
 
 ---
 
-##7- Import
+## 7- Import
 
 Now that everything is set up, and every file is created we can beggin by **importing** all **Components** in the **Index.vue** file. This is our main file.
 
@@ -213,7 +213,7 @@ Each Vue file has 3 tags in it:
 - the second one is **< script >**
 - the third one is **< style >**
 
-##### Template Tage
+### Template Tage
 
 Put the following lines in the **Index.vue** file between the **< template >** tags.
 
@@ -235,7 +235,7 @@ Put the following lines in the **Index.vue** file between the **< template >** t
   </Layout>
 ```
 
-#### Script Tag
+### Script Tag
 
 Put the following lines in the **Index.vue** file between the **< script >** tags.
 
