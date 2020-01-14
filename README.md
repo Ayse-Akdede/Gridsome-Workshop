@@ -39,7 +39,7 @@ Here is the [No LINK yet]() to my resume in gridsome.
 
 ---
 
-## 3- Install Gridsome
+## Install Gridsome
 
 run the following lines.
 
@@ -78,7 +78,7 @@ To explore GraphQL data go to: http://localhost:8080/___explore (optionnal)
 
 ---
 
-## 4 - Install Dependencies
+## Install Dependencies
 
 Go into your folder (mon-premier-gridsome) install all these dependencies.
 
@@ -110,7 +110,7 @@ npm install sass-loader node-sass webpack --save-dev
 
 ---
 
-## 5 - Delete useless files and folders
+## Delete useless files and folders
 
 You can delete :
 
@@ -120,9 +120,9 @@ You can delete :
 
 ---
 
-## 6 - Add
+## Add
 
-### 6.1. Components
+### 1. Components
 
 For our example here, we are gonna need some components.  
 We're gonna make one component per resume object.
@@ -164,7 +164,7 @@ Instead of NAME_OF_FILE you can write the real file name.
 </template>
 ```
 
-### 6.2. Pages
+### 2. Pages
 
 Go to the **/pages** folder and you can create a file named **404.vue** , and you can copy and paste the following lines in the file.
 
@@ -178,7 +178,7 @@ Go to the **/pages** folder and you can create a file named **404.vue** , and yo
 </template>
 ```
 
-### 6.3. Default
+### 3. Default
 
 Go to the **/layouts** folder and open the **Default.vue** file , and put the following lines in the file.
 
@@ -203,7 +203,7 @@ export default {
 
 ---
 
-## 7- Import
+## Import
 
 Now that everything is set up, and every file is created we can beggin by **importing** all **Components** in the **Index.vue** file. This is our main file.
 
