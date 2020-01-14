@@ -1,0 +1,21 @@
+{
+  "name": "mon-premier-gridsome",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.2.1",
+    "gridsome": "^0.7.0",
+    "npm": "^6.13.6",
+    "vue-scrollto": "^2.17.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.5"
+  }
+}
