@@ -16,7 +16,7 @@
 
 [1- Demo, link to the site](#demo)  
 [2- Functions](#functions)  
-[3- Install Gridsome](#install)  
+[3- Install Gridsome](#install-gridsome)  
 [4- Install Dependencies](#install-dependencies)  
 [5- Delete useless files and folders](#delete-useless-files-and-folders)  
 [6- Add](#add)  
