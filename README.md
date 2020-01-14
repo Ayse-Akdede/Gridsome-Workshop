@@ -14,7 +14,7 @@
  Table of contents
 </h2>
 
-[1- Demo, link to the site](#demo)  
+[1- Demo, link to the site](#1-demo)  
 [2- Functions](#functions)  
 [3- Install Gridsome](#install-gridsome)  
 [4- Install Dependencies](#install-dependencies)  
@@ -24,7 +24,7 @@
 
 ---
 
-## Demo
+## 1. Demo
 
 Here is the [No LINK yet]() to my resume in gridsome.
 
