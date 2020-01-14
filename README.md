@@ -6,7 +6,7 @@
     <img  src="https://gridsome.org/logos/only-logo.svg" alt="gridsome logo"/>
 </p>
 
-> Introduction to Gridsome by creating a resume
+:sparkles: Introduction to Gridsome , a Vuejs framework by creating a resume :sparkles:
 
 ---
 
