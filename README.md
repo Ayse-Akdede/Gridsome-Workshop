@@ -18,6 +18,9 @@
 [2- Functions](#2-functions)  
 [3- Install Gridsome](#3-install)
 [4- Install Dependencies](#4-install-dependencies)
+[5- Delete useless files and folders](#5-delete-useless-files-and-folders)
+[6- Add](#6-add)
+[7- Import](#7-import)
 
 ---
 
@@ -32,6 +35,7 @@ Here is the [No LINK yet]() to my site.
 - **Gridsome -** Vue.js & GraphQL powered framework genrating static files.
 - **Bootstrap & Bootstrap Vue -** Powerful styling and layout with styled Vue components.
 - **Sass -** Professional grade CSS extension with many features.
+- **Vetur -** VsCode extension for Vuejs files.
 
 ---
 
@@ -103,3 +107,159 @@ npm install --save bootstrap
 ```sh
 npm install sass-loader node-sass webpack --save-dev
 ```
+
+---
+
+## 5 - Delete useless files and folders
+
+You can delete :
+
+- **/static** folder.
+- **gridsome.server.js** file.
+- **readme** file in the /component folder.
+
+---
+
+## 6 - Add
+
+### 6.1. Components
+
+For our example here, we are gonna need some components.  
+We're gonna make one component per resume object.
+
+Go to the **/components** folder and you can create 7 files (each named as you prefer) :
+
+- **About.vue**
+  This one will serve you to write a little about what you are doing and what you are searching for (Job, internship).
+
+* **Laguages.vue**
+  This one will serve you to write the languages you know.
+
+* **Education.vue**
+  This one will serve you to write your degrees and schools.
+
+* **Experience.vue**
+  This one will serve you to write the internships you did , or jobs.
+
+- **Interests.vue**
+  This one will serve you to write your hobbies, your favorite to do.
+
+- **Nav.vue**
+  This one will be like a MENU.
+
+- **Skills.vue**
+  This one will serve you to write the technologies you learned, the web languages you know (php, html, etc...).
+
+> after creating all these files you can copy-paste the following lines in each file.
+
+Instead of NAME_OF_FILE you can write the real file name.
+
+```sh
+<template>
+  <section id="NAME-OF-FILE">
+    <div>
+      <h1>This is the NAME-OF-FILE page</h1>
+    </div>
+  </section>
+</template>
+```
+
+### 6.2. Pages
+
+Go to the **/pages** folder and you can create a file named **404.vue** , and you can copy and paste the following lines in the file.
+
+```sh
+<template>
+  <Layout>
+    <h1 class="p-3 p-lg-5 d-flex align-items-center">
+      Nothing here to see! 404 Error.
+    </h1>
+  </Layout>
+</template>
+```
+
+### 6.3. Default
+
+Go to the **/layouts** folder and open the **Default.vue** file , and put the following lines in the file.
+
+```sh
+<template>
+  <div class="layout">
+    <Nav />
+    <slot />
+  </div>
+</template>
+
+<script>
+import Nav from "../components/Nav";
+
+export default {
+  components: {
+    Nav
+  }
+};
+</script>
+```
+
+---
+
+##7- Import
+
+Now that everything is set up, and every file is created we can beggin by **importing** all **Components** in the **Index.vue** file. This is our main file.
+
+Each Vue file has 3 tags in it:
+
+- the first one is **< template >**
+- the second one is **< script >**
+- the third one is **< style >**
+
+##### Template Tage
+
+Put the following lines in the **Index.vue** file between the **< template >** tags.
+
+```sh
+  <Layout>
+    <div class="container-fluid p-0">
+      <About />
+      <hr class="m-0" />
+      <Experience />
+      <hr class="m-0" />
+      <Education />
+      <hr class="m-0" />
+      <Skills />
+      <hr class="m-0" />
+      <Interest />
+      <hr class="m-0" />
+      <Languages />
+    </div>
+  </Layout>
+```
+
+#### Script Tag
+
+Put the following lines in the **Index.vue** file between the **< script >** tags.
+
+```sh
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Education from "../components/Education";
+import Skills from "../components/Skills";
+import Interest from "../components/Interest";
+import Languages from "../components/Languages";
+
+export default {
+  components: {
+    About,
+    Experience,
+    Education,
+    Skills,
+    Interest,
+    Languages
+  },
+  metaInfo: {
+    title: "Gridsome Resume"
+  }
+};
+```
+
+---
