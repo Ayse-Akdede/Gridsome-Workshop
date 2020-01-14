@@ -15,12 +15,12 @@
 </h2>
 
 [1- Demo, link to the site](#1-demo)  
-[2- Functions](#functions)  
-[3- Install Gridsome](#install-gridsome)  
-[4- Install Dependencies](#install-dependencies)  
-[5- Delete useless files and folders](#delete-useless-files-and-folders)  
-[6- Add](#add)  
-[7- Import](#import)
+[2- Functions](#2-functions)  
+[3- Install Gridsome](#3-install-gridsome)  
+[4- Install Dependencies](#4-install-dependencies)  
+[5- Delete useless files and folders](#5-delete-useless-files-and-folders)  
+[6- Add](#6-add)  
+[7- Import](#7-import)
 
 ---
 
@@ -30,7 +30,7 @@ Here is the [No LINK yet]() to my resume in gridsome.
 
 ---
 
-## Functions
+## 2. Functions
 
 - **Gridsome -** Vue.js & GraphQL powered framework genrating static files.
 - **Bootstrap & Bootstrap Vue -** Powerful styling and layout with styled Vue components.
@@ -39,7 +39,7 @@ Here is the [No LINK yet]() to my resume in gridsome.
 
 ---
 
-## Install Gridsome
+## 3. Install Gridsome
 
 run the following lines.
 
@@ -78,7 +78,7 @@ To explore GraphQL data go to: http://localhost:8080/___explore (optionnal)
 
 ---
 
-## Install Dependencies
+## 4. Install Dependencies
 
 Go into your folder (mon-premier-gridsome) install all these dependencies.
 
@@ -110,7 +110,7 @@ npm install sass-loader node-sass webpack --save-dev
 
 ---
 
-## Delete useless files and folders
+## 5. Delete useless files and folders
 
 You can delete :
 
@@ -120,9 +120,9 @@ You can delete :
 
 ---
 
-## Add
+## 6. Add
 
-### 1. Components
+### 6.1. Components
 
 For our example here, we are gonna need some components.  
 We're gonna make one component per resume object.
@@ -164,7 +164,7 @@ Instead of NAME_OF_FILE you can write the real file name.
 </template>
 ```
 
-### 2. Pages
+### 6.2. Pages
 
 Go to the **/pages** folder and you can create a file named **404.vue** , and you can copy and paste the following lines in the file.
 
@@ -178,7 +178,7 @@ Go to the **/pages** folder and you can create a file named **404.vue** , and yo
 </template>
 ```
 
-### 3. Default
+### 6.3. Default
 
 Go to the **/layouts** folder and open the **Default.vue** file , and put the following lines in the file.
 
@@ -203,7 +203,7 @@ export default {
 
 ---
 
-## Import
+## 7. Import
 
 Now that everything is set up, and every file is created we can beggin by **importing** all **Components** in the **Index.vue** file. This is our main file.
 
