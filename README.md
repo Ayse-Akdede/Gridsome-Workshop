@@ -110,6 +110,14 @@ npm install sass-loader node-sass webpack --save-dev
 
 ---
 
+**Font awesome icons and svg**
+
+```
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/vue-fontawesome
+npm i --save @fortawesome/free-solid-svg-icons
+```
+
 ## 5. Delete useless files and folders
 
 You can delete :
@@ -201,6 +209,16 @@ export default {
 </script>
 ```
 
+### 6.4. Styles & images
+
+In the **/src** folder create 1 new folder named **assets**.  
+In this **/assets** folder create 2 new folders :
+
+- images
+- styles
+
+Go to the **/styles** folder and add
+
 ---
 
 ## 7. Import
@@ -213,7 +231,7 @@ Each Vue file has 3 tags in it:
 - the second one is **< script >**
 - the third one is **< style >**
 
-### Template Tage
+### Template Tag
 
 Put the following lines in the **Index.vue** file between the **< template >** tags.
 
@@ -263,3 +281,69 @@ export default {
 ```
 
 ---
+
+## 8. Main.js file
+
+Import everything in the main.js file
+
+```
+import DefaultLayout from "~/layouts/Default.vue";
+
+import VueScrollTo from "vue-scrollto";
+import BootstrapVue from "bootstrap-vue";
+
+import "./assets/styles/main.scss";
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+import { faTrophy, faRss, faCheck } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faTwitter,
+  faFacebook,
+  faLinkedin,
+  faHtml5,
+  faJsSquare,
+  faCss3Alt,
+  faAngular,
+  faReact,
+  faNodeJs,
+  faSass,
+  faLess,
+  faWordpress,
+  faGulp,
+  faGrunt,
+  faNpm
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+library.add(
+  faGithub,
+  faTwitter,
+  faFacebook,
+  faLinkedin,
+  faTrophy,
+  faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faAngular,
+  faReact,
+  faNodeJs,
+  faSass,
+  faLess,
+  faWordpress,
+  faGulp,
+  faGrunt,
+  faNpm,
+  faRss,
+  faCheck
+);
+
+export default function(Vue, { router, head, isClient }) {
+  Vue.use(VueScrollTo);
+  Vue.use(BootstrapVue);
+  Vue.component("Layout", DefaultLayout);
+
+  Vue.component("font-awesome", FontAwesomeIcon);
+}
+```

@@ -1,46 +1,50 @@
 <template>
-  <nav id="sideNav">
-    <div>
-      <h1>This is the NAV page</h1>
+  <nav id="sideNav" class="list-group">
+    <!-- Photo -->
+    <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
+      <span class="d-block d-lg-none">Loke Carlsson</span>
+      <span class="d-none d-lg-block">
+        <g-image
+          alt="Image of Loke"
+          src="../assets/images/profil.jpg"
+          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+        />
+      </span>
     </div>
     <!-- navigation part  -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
+          <a selected class="nav-link" v-on:click.prevent="$scrollTo('#about')"
+            >Profil</a
+          >
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')"
-            >Experience</a
+            >Experiences</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#education')"
-            >Education</a
+            >Formations</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')"
-            >Skills</a
+            >Compétences</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#interest')"
-            >Interests</a
+            >Hobbies</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#langue')"
-            >Langue</a
+            >Langues</a
           >
         </li>
       </ul>
     </div>
   </nav>
 </template>
-
-<style>
-.nav-item {
-  cursor: pointer;
-}
-</style>

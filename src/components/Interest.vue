@@ -5,3 +5,9 @@
     </div>
   </section>
 </template>
+
+<style lang="scss">
+body {
+  position: relative;
+}
+</style>
