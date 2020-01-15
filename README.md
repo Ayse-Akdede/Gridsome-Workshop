@@ -20,7 +20,8 @@
 [4- Install Dependencies](#4-install-dependencies)  
 [5- Delete useless files and folders](#5-delete-useless-files-and-folders)  
 [6- Add](#6-add)  
-[7- Import](#7-import)
+[7- Import](#7-import)  
+[8- Main.js file](#8-main-js-file)
 
 ---
 
@@ -282,7 +283,7 @@ export default {
 
 ---
 
-## 8. Main.js file
+## 8. Main js file
 
 Import everything in the main.js file
 
