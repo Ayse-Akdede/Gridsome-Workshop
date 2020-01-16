@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <layout>
     <div class="container-fluid p-0">
       <About />
       <hr class="m-0" />
@@ -17,7 +17,7 @@
       <hr class="m-0" />
       <Interest />
     </div>
-  </Layout>
+  </layout>
 </template>
 
 <script>
@@ -47,5 +47,10 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@media (min-width: 220px) and (max-width:768px){
+  .container-fluid {
+    margin-left: 50px;
+  }
+}
 </style>

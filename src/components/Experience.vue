@@ -1,6 +1,6 @@
 <template>
   <section id="experience">
-    <h1 class="mb-5">Expériences professionnelles</h1>
+    <h1 class="mb-5">Expériences</h1>
 
     <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
       <div class="resume-content">

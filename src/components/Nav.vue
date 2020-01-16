@@ -2,7 +2,6 @@
   <nav id="sideNav" class="list-group">
     <!-- Photo -->
     <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
-      <span class="d-block d-lg-none">Ayse Akdede</span>
       <span class="d-none d-lg-block">
         <g-image
           alt="Image of ayse"
