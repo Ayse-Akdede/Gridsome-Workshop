@@ -1,7 +1,7 @@
 <template>
   <section id="skills">
     <div class="w-100">
-      <h2 class="mb-5">Skills</h2>
+      <h1 class="mb-5">Compétences</h1>
 
       <div class="subheading mb-3">Languages de programmations</div>
       <ul class="list-inline dev-icons">
@@ -35,6 +35,31 @@
         <li title=" NPM " class="icons list-inline-item">
           <font-awesome :icon="['fab', 'npm']" />
         </li>
+        <li title=" Bootstrap " class="icons list-inline-item">
+          <font-awesome :icon="['fab', 'bootstrap']" />
+        </li>
+        <li title=" Laravel " class="icons list-inline-item">
+          <font-awesome :icon="['fab', 'laravel']" />
+        </li>
+        <li title=" Docker " class="icons list-inline-item">
+          <font-awesome :icon="['fab', 'docker']" />
+        </li>
+      </ul>
+      <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+        <li>php</li>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Nodejs</li>
+        <li>Sass</li>
+        <li>Wordpress</li>
+        <li>Vuejs</li>
+        <li>Npm</li>
+        <li>Bootstrap</li>
+        <li>laravel</li>
+        <li>Docker</li>
       </ul>
 
       <div class="subheading mb-3">Application et autres</div>
@@ -45,8 +70,29 @@
         <li title=" Git " class="icons list-inline-item">
           <font-awesome :icon="['fab', 'git']" />
         </li>
+        <li title=" Microsoft Word " class="icons list-inline-item">
+          <font-awesome :icon="['fa', 'file-word']" />
+        </li>
+        <li title=" Microsoft Excel " class="icons list-inline-item">
+          <font-awesome :icon="['fa', 'file-excel']" />
+        </li>
+        <li title=" Microsoft PowerPoint " class="icons list-inline-item">
+          <font-awesome :icon="['fa', 'file-powerpoint']" />
+        </li>
+        <li title=" Microsoft Access " class="icons list-inline-item">
+          <font-awesome :icon="['fa', 'database']" />
+        </li>
       </ul>
     </div>
+
+    <ul>
+      <li>Git</li>
+      <li>GitHub</li>
+      <li>Terminal</li>
+      <li>Visual Studio Code</li>
+      <li>Microsoft Office (Word, Excel, Access, Publisher, PowerPoint, VBA)</li>
+      <li>LibreOffice Writer</li>
+    </ul>
   </section>
 </template>
 

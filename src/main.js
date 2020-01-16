@@ -11,13 +11,21 @@ import {
   faTrophy,
   faRss,
   faCheck,
-  faPhone
+  faPhone,
+  faEnvelope,
+  faCar,
+  faMapMarker,
+  faBirthdayCake,
+  faFileExcel,
+  faFilePowerpoint,
+  faFileWord,
+  faDatabase,
+  faBookOpen,
+  faVideo
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faGit,
-  faTwitter,
-  faFacebook,
   faLinkedin,
   faHtml5,
   faJsSquare,
@@ -26,18 +34,18 @@ import {
   faReact,
   faNodeJs,
   faSass,
-  faLess,
   faWordpress,
   faNpm,
-  faVuejs
+  faVuejs,
+  faBootstrap,
+  faLaravel,
+  faDocker
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(
   faGithub,
   faGit,
-  faTwitter,
-  faFacebook,
   faLinkedin,
   faTrophy,
   faHtml5,
@@ -47,14 +55,25 @@ library.add(
   faReact,
   faNodeJs,
   faSass,
-  faLess,
   faWordpress,
-
   faNpm,
   faRss,
   faCheck,
   faVuejs,
-  faPhone
+  faPhone,
+  faEnvelope,
+  faCar,
+  faMapMarker,
+  faBirthdayCake,
+  faBootstrap,
+  faFileExcel,
+  faFilePowerpoint,
+  faFileWord,
+  faDatabase,
+  faBookOpen,
+  faVideo,
+  faLaravel,
+  faDocker
 );
 
 export default function(Vue, { router, head, isClient }) {

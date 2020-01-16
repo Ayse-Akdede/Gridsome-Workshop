@@ -1,0 +1,53 @@
+<template>
+  <section id="contact">
+    <div class="w-100">
+      <h1 class="mb-5">Contact</h1>
+
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="My phone number" class="icons">
+            <font-awesome :icon="['fa', 'phone']" />
+          </li>
+        </div>
+        <div>0466/03.56.35</div>
+      </div>
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="My email address" class="icons">
+            <font-awesome :icon="['fa', 'envelope']" />
+          </li>
+        </div>
+        <div>ayseazize.akdede@gmail.com</div>
+      </div>
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <a
+            title="Click on me to go to my linkedin profile"
+            href="https://linkedin.com/in/ayse-akdede/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <font-awesome :icon="['fab', 'linkedin']" />
+          </a>
+        </div>
+        <div>https://www.linkedin.com/in/ayse-akdede/</div>
+      </div>
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <a
+            title="Click on me to go to my github  profile"
+            href="https://github.com/Ayse-Akdede"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <font-awesome :icon="['fab', 'github']" />
+          </a>
+        </div>
+        <div>https://github.com/Ayse-Akdede</div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style scoped lang="scss">
+</style>

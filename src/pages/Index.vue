@@ -3,35 +3,43 @@
     <div class="container-fluid p-0">
       <About />
       <hr class="m-0" />
+      <Contact />
+      <hr class="m-0" />
+      <Informations />
+      <hr class="m-0" />
       <Experience />
       <hr class="m-0" />
       <Education />
       <hr class="m-0" />
       <Skills />
       <hr class="m-0" />
-      <Interest />
-      <hr class="m-0" />
       <Langue />
+      <hr class="m-0" />
+      <Interest />
     </div>
   </Layout>
 </template>
 
 <script>
 import About from "../components/About";
+import Contact from "../components/Contact";
+import Informations from "../components/Informations";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
-import Interest from "../components/Interest";
 import Langue from "../components/Langue";
+import Interest from "../components/Interest";
 
 export default {
   components: {
     About,
+    Contact,
+    Informations,
     Experience,
     Education,
     Skills,
-    Interest,
-    Langue
+    Langue,
+    Interest
   },
   metaInfo: {
     title: "Gridsome Resume"

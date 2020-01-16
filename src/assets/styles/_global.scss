@@ -6,6 +6,10 @@ body {
     "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
   color: gray;
+
+  section {
+    padding: 50px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -26,12 +30,13 @@ h6 {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
-  color: gray;
+  color: dimgrey;
 }
 
 h1 {
   font-size: 2.5rem;
   line-height: 3rem;
+  color: rgb(66, 66, 66);
 }
 
 h2 {
@@ -54,6 +59,7 @@ p.lead {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
+  color: rgb(73, 73, 73);
 }
 
 .social-icons {
@@ -79,6 +85,29 @@ p.lead {
   }
 }
 
+.contact-icons {
+  a,
+  li {
+    height: 2rem;
+    width: 2rem;
+    background-color: #007bff;
+    color: white !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-right: 0.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: #0050a7;
+    }
+  }
+}
+
 .dev-icons {
   font-size: 3rem;
 
@@ -87,4 +116,20 @@ p.lead {
       background-color: #0050a7;
     }
   }
+}
+
+#name {
+  padding-bottom: 50px;
+}
+
+.inline-block {
+  display: flex;
+  align-items: center;
+}
+.contact-icons {
+  margin: 5px;
+}
+
+#sideNav {
+  box-shadow: 10px 0px 10px #aaa;
 }
