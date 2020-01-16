@@ -22,12 +22,13 @@
 [6- Add](#6-add)  
 [7- Import](#7-import)  
 [8- Main.js file](#8-main-js-file)
+[9- Deploy Gridsome in Netlify](#9-deploy-gridsome)
 
 ---
 
 ## 1. Demo
 
-Here is the [No LINK yet]() to my resume in gridsome.
+Here is the [link](https://first-gridsome-cv-akdede.netlify.com/) to my resume in gridsome.
 
 ---
 
@@ -348,3 +349,25 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component("font-awesome", FontAwesomeIcon);
 }
 ```
+
+---
+
+## 9. Deploy Gridsome
+
+To deploy your first gridsome cv, you'll need to push all your work in GitHub.
+
+**Registration in netlify**
+
+To register in Netlify you can use your github account.
+
+**Deploy**
+
+In the page you'll see the button **New site from Git**
+
+- Select your account
+- Choose you're repository from GitHub, GitLab, or Bitbucket.
+
+**Add these build settings:**
+
+Build Command:`gridsome build`
+Publish directory:`dist`
