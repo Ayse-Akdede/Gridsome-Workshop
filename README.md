@@ -21,7 +21,7 @@
 [5- Delete useless files and folders](#5-delete-useless-files-and-folders)  
 [6- Add](#6-add)  
 [7- Import](#7-import)  
-[8- Main.js file](#8-main-js-file)
+[8- Main.js file](#8-main-js-file)  
 [9- Deploy Gridsome in Netlify](#9-deploy-gridsome)
 
 ---
@@ -54,13 +54,13 @@ sudo npm install --global @gridsome/cli
 **2. Create your first Gridsome resume directory**
 
 ```sh
-gridsome create my-fisrt-gridsome-resume https://github.com/LokeCarlsson/gridsome-starter-resume.git
+gridsome create my-first-gridsome-resume
 ```
 
 **3. Go into your directory**
 
 ```sh
-cd my-fisrt-gridsome-resume
+cd my-first-gridsome-resume
 ```
 
 **4. Start a local development server locally**
@@ -82,7 +82,7 @@ To explore GraphQL data go to: http://localhost:8080/___explore (optionnal)
 
 ## 4. Install Dependencies
 
-Go into your folder (mon-premier-gridsome) install all these dependencies.
+Go into your folder (my-first-gridsome-resume) install all these dependencies.
 
 **Scroll**
 
