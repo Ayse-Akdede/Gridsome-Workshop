@@ -1,5 +1,5 @@
 <template>
-  <section id="informations">
+  <section class="resume-section" id="informations">
     <div class="w-100">
       <h1 class="mb-5">Informations</h1>
 

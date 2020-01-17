@@ -1,5 +1,5 @@
 <template>
-  <section id="interest">
+  <section class="resume-section" id="interest">
     <div>
       <h1>Hobbies</h1>
       <div class="inline-block">
@@ -8,7 +8,9 @@
             <font-awesome :icon="['fa', 'book-open']" />
           </li>
         </div>
-        <div>Bouquineuse de roman policier, thriller, fantastique, science-fiction.</div>
+        <div>
+          Bouquineuse de roman policier, thriller, fantastique, science-fiction.
+        </div>
       </div>
       <div class="inline-block">
         <div class="social-icons contact-icons">
@@ -16,9 +18,10 @@
             <font-awesome :icon="['fa', 'video']" />
           </li>
         </div>
-        <div>Visionneuse de films et séries de type drame, thriller, action.</div>
+        <div>
+          Visionneuse de films et séries de type drame, thriller, action.
+        </div>
       </div>
     </div>
   </section>
 </template>
-

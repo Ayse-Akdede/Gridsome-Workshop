@@ -1,5 +1,5 @@
 <template>
-  <section id="skills">
+  <section class="resume-section" id="skills">
     <div class="w-100">
       <h1 class="mb-5">Compétences</h1>
 
@@ -90,7 +90,9 @@
       <li>GitHub</li>
       <li>Terminal</li>
       <li>Visual Studio Code</li>
-      <li>Microsoft Office (Word, Excel, Access, Publisher, PowerPoint, VBA)</li>
+      <li>
+        Microsoft Office (Word, Excel, Access, Publisher, PowerPoint, VBA)
+      </li>
       <li>LibreOffice Writer</li>
     </ul>
   </section>
