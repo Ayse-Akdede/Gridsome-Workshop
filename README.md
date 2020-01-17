@@ -6,7 +6,7 @@
     <img  src="https://gridsome.org/logos/only-logo.svg" alt="gridsome logo"/>
 </p>
 
-:sparkles: Introduction to Gridsome , a Vuejs framework by creating a resume :sparkles:
+:sparkles: Introduction to Gridsome , a Vuejs framework by creating a responsive resume and deploy it on netlify :sparkles:
 
 ---
 
@@ -43,12 +43,18 @@ Here is the [link](https://first-gridsome-cv-akdede.netlify.com/) to my resume i
 
 ## 3. Install Gridsome
 
-run the following lines.
+To install gridsome you'll need to run the following lines.
 
 **1. Install Gridsome on global**
 
 ```sh
 sudo npm install --global @gridsome/cli
+```
+
+or
+
+```sh
+npm install --global @gridsome/cli
 ```
 
 **2. Create your first Gridsome resume directory**
@@ -71,7 +77,7 @@ gridsome develop
 
 **5. Start a local development server**
 
-Now you can go to your favorite browser and open your local hosted site bye typing one of following links.
+Now you can go to your favorite browser and open your locally hosted site by clicking CTRL + Link.
 
 - Local: http://localhost:8080/
 - Network: http://192.168.0.159:8080/
@@ -82,6 +88,7 @@ To explore GraphQL data go to: http://localhost:8080/___explore (optionnal)
 
 ## 4. Install Dependencies
 
+For our project we need some dependencies.  
 Go into your folder (my-first-gridsome-resume) install all these dependencies.
 
 **Scroll**
@@ -403,3 +410,7 @@ In the page you'll see the button **New site from Git**
 
 Build Command:`gridsome build`
 Publish directory:`dist`
+
+**Changes and updates**
+
+To chage or update your CV, you simply need to `add` , `commit` and `push`your changes.
