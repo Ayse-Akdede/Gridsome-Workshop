@@ -6,16 +6,16 @@ body {
     "Segoe UI Symbol", "Noto Color Emoji";
 
   color: gray;
-
-  section {
-    padding: 50px;
-  }
+  padding-bottom: 50px;
 }
 
 @media (min-width: 769px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
+    section {
+      padding: 50px;
+    }
   }
 }
 
@@ -128,4 +128,16 @@ p.lead {
 }
 .contact-icons {
   margin: 5px;
+}
+
+@media (min-width: 200px) and (max-width: 769px) {
+  body {
+    div.container-fluid {
+      margin: 0px;
+
+      section {
+        padding: 50px;
+      }
+    }
+  }
 }

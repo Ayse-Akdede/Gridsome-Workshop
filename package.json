@@ -14,6 +14,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.2.1",
     "gridsome": "^0.7.0",
+    "mdbvue": "^6.2.0",
     "npm": "^6.13.6",
     "vue-scrollto": "^2.17.1"
   },

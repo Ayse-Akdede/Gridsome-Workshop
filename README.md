@@ -371,6 +371,8 @@ library.add(
   faCheck
 );
 
+// Here is some examples but you can add any other icon by typing in the library.add(ADD_HERE_ANY_NAME_OF_ICON);
+
 export default function(Vue, { router, head, isClient }) {
   Vue.use(VueScrollTo);
   Vue.use(BootstrapVue);

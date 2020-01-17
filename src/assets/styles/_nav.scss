@@ -75,19 +75,19 @@
   }
 }
 
-@media (min-width: 200px) and (max-width: 991px) {
+@media (min-width: 200px) and (max-width: 769px) {
   #sideNav {
     font-size: x-small;
     text-align: center;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
-    padding-top: 50px;
-
+    right: 0;
     display: flex;
     flex-direction: column;
+    position: fixed;
 
-    height: 100%;
+    height: auto;
 
     .nav-link {
       color: #007bff;
@@ -102,22 +102,22 @@
 
     .navbar-collapse {
       display: flex;
-      align-items: flex-start;
+
       flex-grow: 0;
 
       width: 100%;
       margin-bottom: auto;
 
       .navbar-nav {
-        flex-direction: column;
-
+        display: flex;
+        flex-flow: wrap;
         width: 100%;
 
-        .nav-item {
+        .nav-link {
           display: block;
-
-          .nav-link {
-            display: block;
+          padding: 10px;
+          &:active {
+            color: red;
           }
         }
       }

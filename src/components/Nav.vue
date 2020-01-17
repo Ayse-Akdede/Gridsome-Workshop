@@ -14,33 +14,47 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a selected class="nav-link" v-on:click.prevent="$scrollTo('#about')">Profil</a>
+          <a selected class="nav-link" v-on:click.prevent="$scrollTo('#about')"
+            >Profil</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Contact</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')"
+            >Contact</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#informations')">Informations</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#informations')"
+            >Informations</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Expériences</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')"
+            >Expériences</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Formations</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')"
+            >Formations</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Compétences</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')"
+            >Compétences</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#langue')">Langues</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#langue')"
+            >Langues</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interest')">Hobbies</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#interest')"
+            >Hobbies</a
+          >
         </li>
       </ul>
     </div>
-  </nav>
-</template>
-
-<style scoped lang="scss">
-</style>
+  </nav></template
+>
+<style scoped lang="scss"></style>
