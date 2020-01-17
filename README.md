@@ -63,13 +63,13 @@ gridsome create my-first-gridsome-resume
 cd my-first-gridsome-resume
 ```
 
-**4. Start a local development server locally**
+**4. Start a local development server**
 
 ```sh
 gridsome develop
 ```
 
-**5. Start a local development server locally**
+**5. Start a local development server**
 
 Now you can go to your favorite browser and open your local hosted site bye typing one of following links.
 
@@ -137,15 +137,23 @@ You can delete :
 For our example here, we are gonna need some components.  
 We're gonna make one component per resume object.
 
-Go to the **/components** folder and you can create 7 files (each named as you prefer) :
+Go to the **/components** folder and you can create 9 files (each named as you prefer) :
+
+> you can also create less or more files it's up to you.
 
 - **About.vue**
   This one will serve you to write a little about what you are doing and what you are searching for (Job, internship).
 
-* **Laguages.vue**
+- **Contact.vue**
+  This one will serve you to put in your contact informations (phone number, email, linkedin, github, twitter, facebook,...).
+
+- **Informations.vue**
+  This one will serve you to put more informations about yourself (examples : driver's license, car/motorbike, living town, date of birth).
+
+- **Laguages.vue**
   This one will serve you to write the languages you know.
 
-* **Education.vue**
+- **Education.vue**
   This one will serve you to write your degrees and schools.
 
 * **Experience.vue**
@@ -160,7 +168,11 @@ Go to the **/components** folder and you can create 7 files (each named as you p
 - **Skills.vue**
   This one will serve you to write the technologies you learned, the web languages you know (php, html, etc...).
 
+---
+
 > after creating all these files you can copy-paste the following lines in each file.
+
+---
 
 Instead of NAME_OF_FILE you can write the real file name.
 
@@ -174,6 +186,8 @@ Instead of NAME_OF_FILE you can write the real file name.
 </template>
 ```
 
+We'll change it later.
+
 ### 6.2. Pages
 
 Go to the **/pages** folder and you can create a file named **404.vue** , and you can copy and paste the following lines in the file.
@@ -182,7 +196,7 @@ Go to the **/pages** folder and you can create a file named **404.vue** , and yo
 <template>
   <Layout>
     <h1 class="p-3 p-lg-5 d-flex align-items-center">
-      Nothing here to see! 404 Error.
+      Nothing here to see!.
     </h1>
   </Layout>
 </template>
@@ -219,7 +233,23 @@ In this **/assets** folder create 2 new folders :
 - images
 - styles
 
-Go to the **/styles** folder and add
+Go to the **/styles** folder and create 4 files :
+
+- \_global.scss
+- \_nav.scss
+- \_resume.scss
+- main.scss
+
+Now open the main.scss file and copy-paste the following lines in it.
+
+```sh
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";
+
+@import "nav.scss";
+@import "global.scss";
+@import "resume.scss"
+```
 
 ---
 
