@@ -393,15 +393,17 @@ export default function(Vue, { router, head, isClient }) {
 
 ## 9. Deploy Gridsome
 
-To deploy your first gridsome cv, you'll need to push all your work in GitHub.
+For this project I decided to deploy my site in [Netlify](https://www.netlify.com/).
+
+To deploy your first gridsome cv in Netlify, you'll need to push all your work in GitHub.
 
 **Registration in netlify**
 
-To register yourself in Netlify you can use your github account.
+You need to register yourself in Netlify for that you can use your github account.
 
 **Deploy**
 
-In the page you'll see the button **New site from Git**
+In the main page of netlify you'll see the button **New site from Git**
 
 - Select your account
 - Choose you're repository from GitHub, GitLab, or Bitbucket.
