@@ -32,8 +32,9 @@
       color: #007bff;
       &:hover {
         cursor: pointer;
-        color: white;
-        font-weight: 800;
+        background-color: #007bff;
+        color: #252525;
+        margin: 0 60px 0 60px;
       }
     }
 
@@ -120,6 +121,10 @@
           display: block;
           padding: 10px;
           &:active {
+            background-color: #007bff;
+            color: #252525;
+          }
+          &:hover {
             background-color: #007bff;
             color: #252525;
           }
