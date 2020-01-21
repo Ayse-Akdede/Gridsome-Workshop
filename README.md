@@ -89,7 +89,7 @@ To explore GraphQL data go to: http://localhost:8080/___explore (optionnal)
 ## 4. Install Dependencies
 
 For our project we need some dependencies.  
-Go into your folder (my-first-gridsome-resume) install all these dependencies.
+Go into your folder (my-first-gridsome-resume) , open a Terminal and start installing all these dependencies.
 
 **Scroll**
 
@@ -177,7 +177,7 @@ Go to the **/components** folder and you can create 9 files (each named as you p
 
 ---
 
-> after creating all these files you can copy-paste the following lines in each file.
+> **after creating all these files you can copy-paste the following lines in each file.**
 
 ---
 
@@ -397,7 +397,7 @@ To deploy your first gridsome cv, you'll need to push all your work in GitHub.
 
 **Registration in netlify**
 
-To register in Netlify you can use your github account.
+To register yourself in Netlify you can use your github account.
 
 **Deploy**
 
@@ -408,9 +408,9 @@ In the page you'll see the button **New site from Git**
 
 **Add these build settings:**
 
-Build Command:`gridsome build`
+Build Command:`gridsome build`  
 Publish directory:`dist`
 
 **Changes and updates**
 
-To chage or update your CV, you simply need to `add` , `commit` and `push`your changes.
+To change or update your CV, you simply need to `add` , `commit` and `push`your changes.
