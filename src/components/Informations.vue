@@ -29,6 +29,16 @@
         </div>
         <div>Herstal</div>
       </div>
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="J'ai une voiture" class="icons">
+            <font-awesome :icon="['fa', 'paperclip']" />
+          </li>
+        </div>
+        <div>
+          <a href="https://sendeyo.com/up/d/d71efe7522" target="_blank">Mon CV en PDF</a>
+        </div>
+      </div>
     </div>
   </section>
 </template>

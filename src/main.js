@@ -21,7 +21,8 @@ import {
   faFileWord,
   faDatabase,
   faBookOpen,
-  faVideo
+  faVideo,
+  faPaperclip
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -73,7 +74,8 @@ library.add(
   faBookOpen,
   faVideo,
   faLaravel,
-  faDocker
+  faDocker,
+  faPaperclip
 );
 
 // Here is some examples but you can add any other icon by typing in the library.add(ADD_HERE_ANY_NAME_OF_ICON);
