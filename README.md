@@ -410,8 +410,8 @@ In the main page of netlify you'll see the button **New site from Git**
 
 **Add these build settings:**
 
-Build Command:`gridsome build`  
-Publish directory:`dist`
+Under **Build Command** enter:`gridsome build`  
+Under **Publish directory** enter:`dist`
 
 **Changes and updates**
 
