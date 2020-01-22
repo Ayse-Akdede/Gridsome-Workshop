@@ -5,7 +5,7 @@
 
       <div class="inline-block">
         <div class="social-icons contact-icons">
-          <li title="My phone number" class="icons">
+          <li title="Numéro de téléphone" class="icons">
             <font-awesome :icon="['fa', 'phone']" />
           </li>
         </div>
@@ -13,7 +13,7 @@
       </div>
       <div class="inline-block">
         <div class="social-icons contact-icons">
-          <li title="My email address" class="icons">
+          <li title="Adresse Gmail" class="icons">
             <font-awesome :icon="['fa', 'envelope']" />
           </li>
         </div>
@@ -21,12 +21,7 @@
       </div>
       <div class="inline-block">
         <div class="social-icons contact-icons">
-          <a
-            title="Click on me to go to my linkedin profile"
-            href="https://linkedin.com/in/ayse-akdede/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a title="Profile LinkedIn" href="https://linkedin.com/in/ayse-akdede/" target="_blank">
             <font-awesome :icon="['fab', 'linkedin']" />
           </a>
         </div>
@@ -34,12 +29,7 @@
       </div>
       <div class="inline-block">
         <div class="social-icons contact-icons">
-          <a
-            title="Click on me to go to my github  profile"
-            href="https://github.com/Ayse-Akdede"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a title="Profile Github" href="https://github.com/Ayse-Akdede" target="_blank">
             <font-awesome :icon="['fab', 'github']" />
           </a>
         </div>
