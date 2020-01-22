@@ -22,8 +22,8 @@
 [6- Ajouts](#6-ajouts)  
 [7- Importer](#7-importer)  
 [8- le fichier js main](#8-le-fichier-js-main)  
-[9- Déployer Gridsome](#9-déployer-gridsome)
-[10- Version anglais du workshop || English Version of this workshop](#1-demo)
+[9- Déployer Gridsome](#9-déployer-gridsome)  
+[10- Version anglaise du workshop || English Version of this workshop](#1-demo)
 
 ---
 
