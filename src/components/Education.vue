@@ -1,5 +1,5 @@
 <template>
-  <section class="resume-section" id="education">
+  <section class="resume-section middle" id="education">
     <div class="w-100">
       <h1 class="mb-5">Formations</h1>
 

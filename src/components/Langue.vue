@@ -1,5 +1,5 @@
 <template>
-  <section class="resume-section" id="langue">
+  <section class="resume-section middle" id="langue">
     <div>
       <h1>Langues</h1>
       <ul>

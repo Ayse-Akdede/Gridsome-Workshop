@@ -11,6 +11,13 @@ body {
   a {
     color: gray;
   }
+
+  .middle {
+    display: flex;
+    align-items: center;
+
+    max-width: 75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -18,7 +25,7 @@ body {
     padding-top: 0;
     padding-left: 17rem;
     section {
-      padding: 50px;
+      min-height: 40rem;
     }
   }
 }

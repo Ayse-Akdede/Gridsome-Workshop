@@ -1,5 +1,5 @@
 <template>
-  <section class="resume-section" id="about">
+  <section class="resume-section middle" id="about">
     <div class="w-100">
       <h1 class="mb-0" id="name">
         Ayse

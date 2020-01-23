@@ -90,9 +90,7 @@
       <li>GitHub</li>
       <li>Terminal</li>
       <li>Visual Studio Code</li>
-      <li>
-        Microsoft Office (Word, Excel, Access, Publisher, PowerPoint, VBA)
-      </li>
+      <li>Microsoft Office (Word, Excel, Access, Publisher, PowerPoint, VBA)</li>
       <li>LibreOffice Writer</li>
     </ul>
   </section>
