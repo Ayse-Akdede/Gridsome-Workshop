@@ -1,6 +1,7 @@
+
 <template>
   <layout>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" data-spy="scroll" data-target="#mysidebar">
       <About />
       <hr class="m-0" />
       <Contact />
@@ -48,7 +49,7 @@ export default {
 </script>
 
 <style lang="scss">
-@media (min-width: 220px) and (max-width:768px){
+@media (min-width: 220px) and (max-width: 768px) {
   .container-fluid {
     margin-left: 50px;
   }

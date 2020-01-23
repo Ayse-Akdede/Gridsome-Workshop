@@ -1,18 +1,56 @@
-#sideNav {
-  background-color: #f1f1f1;
-  .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
-  }
+@media (min-width: 100px) and (max-width: 767px) {
+  #sideNav {
+    box-shadow: 0px 5px 10px #aaa;
 
-  .navbar-toggler {
-    &:focus {
-      outline-color: #007bff;
+    font-size: x-small;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding-top: 0;
+
+    height: auto;
+
+    .nav-link {
+      color: #007bff;
+    }
+
+    .navbar-brand {
+      display: flex;
+
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-collapse {
+      display: flex;
+
+      flex-grow: 0;
+
+      width: 100%;
+      margin-bottom: auto;
+
+      .navbar-nav {
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+
+        .nav-link {
+          display: block;
+          padding: 10px;
+          &:active {
+            background-color: #007bff;
+            color: #e0e0e0;
+          }
+        }
+      }
     }
   }
 }
-
 @media (min-width: 768px) {
   #sideNav {
     box-shadow: 3px 0px 10px rgb(194, 193, 193);
@@ -75,57 +113,17 @@
     }
   }
 }
+#sideNav {
+  background-color: #f1f1f1;
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
 
-@media (min-width: 100px) and (max-width: 767px) {
-  #sideNav {
-    box-shadow: 0px 5px 10px #aaa;
-
-    font-size: x-small;
-    text-align: center;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    padding-top: 0;
-
-    height: auto;
-
-    .nav-link {
-      color: #007bff;
-    }
-
-    .navbar-brand {
-      display: flex;
-
-      margin: 0;
-      padding: 0;
-    }
-
-    .navbar-collapse {
-      display: flex;
-
-      flex-grow: 0;
-
-      width: 100%;
-      margin-bottom: auto;
-
-      .navbar-nav {
-        display: flex;
-        flex-flow: wrap;
-        width: 100%;
-
-        .nav-link {
-          display: block;
-          padding: 10px;
-          &:active {
-            background-color: #007bff;
-            color: #e0e0e0;
-          }
-        }
-      }
+  .navbar-toggler {
+    &:focus {
+      outline-color: #007bff;
     }
   }
 }

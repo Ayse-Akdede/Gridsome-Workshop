@@ -25,7 +25,11 @@
             <font-awesome :icon="['fab', 'linkedin']" />
           </a>
         </div>
-        <div>https://www.linkedin.com/in/ayse-akdede/</div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/ayse-akdede/"
+          >https://www.linkedin.com/in/ayse-akdede/</a>
+        </div>
       </div>
       <div class="inline-block">
         <div class="social-icons contact-icons">
@@ -33,7 +37,9 @@
             <font-awesome :icon="['fab', 'github']" />
           </a>
         </div>
-        <div>https://github.com/Ayse-Akdede</div>
+        <div>
+          <a href="https://github.com/Ayse-Akdede">https://github.com/Ayse-Akdede</a>
+        </div>
       </div>
     </div>
   </section>

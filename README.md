@@ -249,10 +249,9 @@ Dans le dossier **/assets** créer 2 nouveaux dossiers :
 
 Se rendre dans le dossier **/styles** et créer 4 fichiers :
 
-- \_global.scss
-- \_nav.scss
-- \_resume.scss
-- main.scss
+- \_global.scss (va servir pour contenir tout le CSS global)
+- \_nav.scss (va servir pour tout le css du menu)
+- main.scss ( on va y importer les deux premiers fichiers scss)
 
 Ensuite, ouvrir le fichier **main.scss** et copier-coller le code suivant.
 
@@ -262,7 +261,6 @@ Ensuite, ouvrir le fichier **main.scss** et copier-coller le code suivant.
 
 @import "nav.scss";
 @import "global.scss";
-@import "resume.scss"
 ```
 
 ---
@@ -685,9 +683,8 @@ In this **/assets** folder create 2 new folders :
 
 Go to the **/styles** folder and create 4 files :
 
-- \_global.scss
-- \_nav.scss
-- \_resume.scss
+- \_global.scss (it will serve for the global css)
+- \_nav.scss (it will serve for the side menu css)
 - main.scss
 
 Now open the main.scss file and copy-paste the following lines in it.
@@ -698,7 +695,6 @@ Now open the main.scss file and copy-paste the following lines in it.
 
 @import "nav.scss";
 @import "global.scss";
-@import "resume.scss"
 ```
 
 ---

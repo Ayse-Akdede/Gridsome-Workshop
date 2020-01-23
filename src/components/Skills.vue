@@ -49,7 +49,7 @@
         <li>Html</li>
         <li>Css</li>
         <li>Javascript</li>
-        <li>php</li>
+        <li>Php</li>
         <li>Angular</li>
         <li>React</li>
         <li>Nodejs</li>
@@ -58,7 +58,7 @@
         <li>Vuejs</li>
         <li>Npm</li>
         <li>Bootstrap</li>
-        <li>laravel</li>
+        <li>Laravel</li>
         <li>Docker</li>
       </ul>
 
