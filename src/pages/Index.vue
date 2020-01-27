@@ -43,7 +43,7 @@ export default {
     Interest
   },
   metaInfo: {
-    title: "Gridsome Resume"
+    title: "CV Ayse Akdede"
   }
 };
 </script>
