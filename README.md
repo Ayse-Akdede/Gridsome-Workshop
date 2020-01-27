@@ -414,7 +414,11 @@ Comme vous l'aurez sans doute remarqué, dans l'onglet on voit l'icône de Grids
 
 - Se rendre sur https://www.flaticon.com/
 - Choisir un icône
-- Le télécharger en 16px et le nommer **favicon.png**
+- Le télécharger en 16px
+
+![photo](src/assets/images/derty.png)
+
+- Renommer l'icône en **favicon.png**
 - Le déplacer dans le dossier /src
 
 ---
