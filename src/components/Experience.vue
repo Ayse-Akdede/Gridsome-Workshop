@@ -33,7 +33,7 @@
         <h3 class="mb-0">Technicienne de bureau</h3>
         <div class="subheading mb-3">Au Petit Soleil (a.s.b.l.)</div>
         <p>- Stage en tant que technicienne de bureau.</p>
-        <p>- Utilisation de Microsoft Word et Excel)</p>
+        <p>- Utilisation de Microsoft Word et Excel</p>
       </div>
       <div class="resume-date text-md-right">
         <span class="text-primary">Janvier 2019 - Mars 2019</span>

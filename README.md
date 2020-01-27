@@ -21,9 +21,9 @@
 [5- Suppression](#5-suppressions)  
 [6- Ajouts](#6-ajouts)  
 [7- Importer](#7-importer)  
-[8- le fichier js main](#8-le-fichier-js-main)  
-[9- Déployer Gridsome](#9-déployer-gridsome)  
-[10- Version anglaise du workshop || English Version of this workshop](#1-demo)
+[8- le fichier js main](#8-le-fichier-js-main)
+[9- Changement d'icône](#9-changer-d'icône)  
+[10- Déployer Gridsome](#10-déployer-gridsome)
 
 ---
 
@@ -408,7 +408,18 @@ export default function(Vue, { router, head, isClient }) {
 
 ---
 
-## 9. Déployer Gridsome
+## 9. Changer d'icône
+
+Comme vous l'aurez sans doute remarqué, dans l'onglet on voit l'icône de Gridsome, afin de personnaliser un icône à votre goût il faudra :
+
+- Se rendre sur https://www.flaticon.com/
+- Choisir un icône
+- Le télécharger en 16px et le nommer **favicon.png**
+- Le déplacer dans le dossier /src
+
+---
+
+## 10. Déployer Gridsome
 
 Pour ce projet j'ai décidé de déployer le cv sur [Netlify](https://www.netlify.com/).
 
