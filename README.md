@@ -159,47 +159,318 @@ Vous pouvez tout à fait changer le nom des fichiers.
 - **About.vue**
   Ecrire ton profil, Ce que tu fais (formation , étude) et ce que tu recherches (stage, cdi, cdd, travail).
 
+  ```sh
+  <template>
+  <section class="resume-section middle" id="about">
+    <div class="w-100">
+      <h1 class="mb-0" id="name">
+       FIRST-NAME
+        <span class="text-primary">LAST-NAME</span>
+      </h1>
+      <p class="lead mb-5">
+        WRITE ABOUT YOUR SELF.
+        What you are doing, what you are searching...
+      </p>
+    </div>
+  </section>
+  </template>
+
+  ```
+
 - **Contact.vue**
   Noter les divers moyen de te contacter.  
   Examples : Gsm, Mail, LinkedIn, GitHub, Facebook, Twitter, etc..
 
-- **Informations.vue**
-  Informer les gens de tes situations diverses.  
-   Examples : Permis de conduire, voiture/moto, date de naissances, âge, ville ou tu habites, etc..
-
-- **Laguages.vue**
-  Ecrire les diverses langues que tu connais.
-
-- **Education.vue**
-  Citer les formations et études que tu as fait.
-
-- **Experience.vue**
-  Citer tes expériences professionnelles. (job, stage, bénévolat, hackatons)
-
-- **Interests.vue**
-  Enumérer tes hobbies. (Bouquiner, cinéma, sports, ...)
-
-- **Nav.vue**
-  Ce fichier ci nous servira pour créer le menu.
-
-- **Skills.vue**
-  Citer toutes les technologies informatiques que tu connais (php, html, sass, css, angular, ...).
-
-**Après avoir créer tous ces fichiers, tu peux copier coller les lignes de codes suivantes dans chaques fichiers.**
-
-Remplace NOM_DE_FICHIER par le nom réel du fichier.
-
 ```sh
 <template>
-  <section id="NOM_DE_FICHIER">
-    <div>
-      <h1>Page NOM_DE_FICHIER</h1>
+  <section class="resume-section middle" id="contact">
+    <div class="w-100">
+      <h1 class="mb-5">Contact</h1>
+
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="Numéro de téléphone" class="icons">
+            <font-awesome :icon="['fa', 'phone']" />
+          </li>
+        </div>
+        <div>PHONE NUMBER</div>
+      </div>
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="Adresse Gmail" class="icons">
+            <font-awesome :icon="['fa', 'envelope']" />
+          </li>
+        </div>
+        <div>EMAIL</div>
+      </div>
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <a title="Profile LinkedIn" href="https://linkedin.com/in/" target="_blank">
+            <font-awesome :icon="['fab', 'linkedin']" />
+          </a>
+        </div>
+        <div>
+          <a
+            href="LINKEDINLINK"
+          >LINKEDIN LINK</a>
+        </div>
+      </div>
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <a title="Profile Github" href="https://github.com/profile" target="_blank">
+            <font-awesome :icon="['fab', 'github']" />
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/NAME">https://github.com/NAME</a>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 ```
 
-Nous changerons ça plus tard.
+- **Informations.vue**
+  Informer les gens de tes situations diverses.  
+   Examples : Permis de conduire, voiture/moto, date de naissances, âge, ville ou tu habites, etc..
+
+```sh
+<template>
+  <section class="resume-section middle" id="informations">
+    <div class="w-100">
+      <h1 class="mb-5">Informations</h1>
+
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="Permis B et voiture" class="icons">
+            <font-awesome :icon="['fa', 'car']" />
+          </li>
+        </div>
+        <div>Permis B et voiture</div>
+      </div>
+
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="Date de naissance" class="icons">
+            <font-awesome :icon="['fa', 'birthday-cake']" />
+          </li>
+        </div>
+        <div>DATE OF BIRTH</div>
+      </div>
+
+      <div class="inline-block">
+        <div class="social-icons contact-icons">
+          <li title="Lieu d'habitation" class="icons">
+            <font-awesome :icon="['fa', 'map-marker']" />
+          </li>
+        </div>
+        <div>WHERE YOU LIVE</div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style scoped lang="scss">
+.contact-icons {
+  margin: 3px;
+}
+
+.inline-block {
+  display: flex;
+  align-items: center;
+}
+</style>
+```
+
+- **Laguages.vue**
+  Ecrire les diverses langues que tu connais.
+
+  ```sh
+  <template>
+  <section class="resume-section middle" id="langue">
+    <div>
+      <h1>Langues</h1>
+      <ul>
+        <li>
+          <strong>Français :</strong>
+          Langues maternelle
+        </li>
+        <li>
+          <strong>Anglais :</strong>
+          B2 (Intermédiaire supérieur)
+        </li>
+     </ul>
+    </div>
+  </section>
+  </template>
+  ```
+
+- **Education.vue**
+  Citer les formations et études que tu as fait.
+
+```sh
+<template>
+  <section class="resume-section middle" id="education">
+    <div class="w-100">
+      <h1 class="mb-5">Formations</h1>
+
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-content">
+          <h3 class="mb-0">NOM DE FORMATION</h3>
+          <div class="subheading mb-3">ECOLE ET VILLE</div>
+          <p>Détails</p>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">date de début - date de fin</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+```
+
+- **Experience.vue**
+  Citer tes expériences professionnelles. (job, stage, bénévolat, hackatons)
+
+```sh
+<template>
+  <section class="resume-section" id="experience">
+    <h1 class="mb-5">Expériences</h1>
+
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="resume-content">
+        <h3 class="mb-0">NOM DU POSTE OCCUPÉ</h3>
+        <div class="subheading mb-3">ENTREPRISE ET VILLE</div>
+        <p>
+          Détails du poste
+        </p>
+      </div>
+      <div class="resume-date text-md-right">
+        <span class="text-primary">DATE DE D2BUT - Date de fin</span>
+      </div>
+    </div>
+  </section>
+</template>
+```
+
+- **Interests.vue**
+  Enumérer tes hobbies. (Bouquiner, cinéma, sports, ...)
+
+```sh
+<template>
+  <section class="resume-section middle" id="interest">
+    <div>
+      <h1>Hobbies</h1>
+     <p>AS YOU WANT</p>
+  </section>
+</template>
+```
+
+- **Skills.vue**
+  Citer toutes les technologies informatiques que tu connais (php, html, sass, css, angular, ...).
+
+```sh
+<template>
+  <section class="resume-section" id="skills">
+    <div class="w-100">
+      <h1 class="mb-5">Compétences</h1>
+
+      <div class="subheading mb-3">Languages de programmations</div>
+      <ul class="list-inline dev-icons">
+        <li title="Html 5" class="icons list-inline-item">
+          <font-awesome :icon="['fab', 'html5']" />
+        </li>
+        <li title=" CSS " class="icons list-inline-item">
+          <font-awesome :icon="['fab', 'css3-alt']" />
+        </li>
+      </ul>
+      <ul>
+        <li>Html</li>
+        <li>Css</li>
+      </ul>
+
+      <div class="subheading mb-3">Application et autres</div>
+      <ul class="list-inline dev-icons">
+        <li title=" Github " class="icons list-inline-item">
+          <font-awesome :icon="['fab', 'github']" />
+        </li>
+        <li title=" Git " class="icons list-inline-item">
+          <font-awesome :icon="['fab', 'git']" />
+        </li>
+      </ul>
+    </div>
+
+    <ul>
+      <li>Git</li>
+      <li>GitHub</li>
+    </ul>
+  </section>
+</template>
+
+<style lang="scss">
+.icons {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #007bff;
+  color: white !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-right: 0.5rem;
+}
+</style>
+```
+
+- **Nav.vue**
+  Ce fichier ci nous servira pour créer le menu.
+
+```sh
+  <template>
+  <nav id="sideNav" class="list-group shift">
+    <!-- Photo -->
+    <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
+      <span class="d-none d-md-block">
+        <g-image
+          alt="Image of myself"
+          src="../assets/images/profil.jpg"
+          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+        />
+      </span>
+    </div>
+    <!-- navigation part  -->
+    <div class="collapse navbar-collapse" id="mysidebar ">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#contact')">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#informations')">Informations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Expériences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Formations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#langue')">Langues</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#interest')">Hobbies</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</template>
+```
 
 ### 6.2. Pages
 
@@ -438,7 +709,7 @@ Pour déployer ton cv sur netlify il faut que tu ais un repository sur GitHub co
 
 **S'enregistrer sur netlify**
 
-Afin de déployer un site sur GitHub il faut se créer un compte.  
+Afin de déployer un site sur netlify il faut se créer un compte.  
 Il est préférable de créer un compte Netlify avec son compte github.
 
 **Déployer**
