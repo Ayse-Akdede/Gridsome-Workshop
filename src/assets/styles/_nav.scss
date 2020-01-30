@@ -66,16 +66,6 @@
     width: 17rem;
     height: 100vh;
 
-    .nav-link {
-      color: #007bff;
-      &:hover {
-        cursor: pointer;
-        background-color: #007bff;
-        color: #e0e0e0;
-        margin: 0 60px 0 60px;
-      }
-    }
-
     .navbar-brand {
       display: flex;
 
@@ -126,4 +116,46 @@
       outline-color: #007bff;
     }
   }
+}
+/* shift hover */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.8s;
+}
+nav ul li a:hover {
+  color: #007bff;
+}
+
+nav.shift ul li a {
+  position: relative;
+  z-index: 1;
+  color: #007bff;
+}
+nav.shift ul li a:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+nav.shift ul li a:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 60%;
+  height: 1px;
+  content: ".";
+  color: transparent;
+  background: #007bff;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+  width: 60%;
 }

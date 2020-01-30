@@ -1,5 +1,5 @@
 <template>
-  <nav id="sideNav" class="list-group">
+  <nav id="sideNav" class="list-group shift">
     <!-- Photo -->
     <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
       <span class="d-none d-md-block">
