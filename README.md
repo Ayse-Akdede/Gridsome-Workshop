@@ -700,7 +700,7 @@ Comme vous l'aurez sans doute remarqué, dans l'onglet on voit l'icône de Grids
 
 Pour ce projet j'ai décidé de déployer le cv sur [Netlify](https://www.netlify.com/).
 
-**Créer un repository**
+#### 10.1 Créer un repository
 
 Pour déployer ton cv sur netlify il faut que tu ais un repository sur GitHub contenant tous les fichiers et dossiers.
 
@@ -709,12 +709,12 @@ Pour déployer ton cv sur netlify il faut que tu ais un repository sur GitHub co
 - Copier-coller le contenu de ton dossier projet (mon-premier-cv-gridsome) dans le nouveau dossier. (même les fichiers cachés)
 - Add, commit et push.
 
-**S'enregistrer sur netlify**
+#### 10.2 S'enregistrer sur netlify
 
 Afin de déployer un site sur netlify il faut se créer un compte.  
 Il est préférable de créer un compte Netlify avec son compte github.
 
-**Déployer**
+#### 10.3 Déployer
 
 Dans la page d'accueil de netlify tu verras le bouton **New site from Git** ou **nouveau site à partir de Git**
 
@@ -727,7 +727,7 @@ Dans la page d'accueil de netlify tu verras le bouton **New site from Git** ou *
 Sous **Build Command** tapez:`gridsome build`  
 Sous **Publish directory** tapez:`dist`
 
-**Changements et mise à jours**
+#### 10.4 Changements et mise à jours
 
 Afin de changer ou mettre à jour ton CV, il te suffira de `add` , `commit` et `push` les changements.
 
