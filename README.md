@@ -18,10 +18,10 @@
 [2- Technologies utilisées](#2-technologies-utilisées)  
 [3- Installer Gridsome](#3-installer-gridsome)  
 [4- Installer les dépendances](#4-installer-les-dépendances)  
-[5- Suppression](#5-suppressions)  
+[5- Suppressions](#5-suppressions)  
 [6- Ajouts](#6-ajouts)  
 [7- Importer](#7-importer)  
-[8- le fichier js main](#8-le-fichier-js-main)
+[8- le fichier js main](#8-le-fichier-js-main)  
 [9- Changement d'icône](#9-changer-d'icône)  
 [10- Déployer Gridsome](#10-déployer-gridsome)
 
@@ -152,7 +152,7 @@ Dans ce project nous aurons besoin de plusieurs sujet, et pour chaque sujet nous
 
 Se rendre dans le dossier **/components** et dedans tu peux y créer 9 fichiers.
 
-> Le nombre de fichier a créer dépendra entièrement de toi et des sujets que tu voudra ajouter à ton CV. Tu peux en créer plus et tu peux en créer moins.
+> Le nombre de fichier a créer dépendra entièrement de toi et des sujets que tu voudras ajouter à ton CV. Tu peux en créer plus et tu peux en créer moins.
 
 Vous pouvez tout à fait changer le nom des fichiers.
 
@@ -330,7 +330,7 @@ Vous pouvez tout à fait changer le nom des fichiers.
 ```
 
 - **Experience.vue**
-  Citer tes expériences professionnelles. (job, stage, bénévolat, hackatons)
+  Citer tes expériences professionnelles. (jobs, stages, bénévolats, hackatons)
 
 ```sh
 <template>
@@ -354,7 +354,7 @@ Vous pouvez tout à fait changer le nom des fichiers.
 ```
 
 - **Interests.vue**
-  Enumérer tes hobbies. (Bouquiner, cinéma, sports, ...)
+  Enumérer tes hobbies. (Livres, cinémas, sports, ...)
 
 ```sh
 <template>
@@ -389,7 +389,7 @@ Vous pouvez tout à fait changer le nom des fichiers.
         <li>Css</li>
       </ul>
 
-      <div class="subheading mb-3">Application et autres</div>
+      <div class="subheading mb-3">Applications et autres</div>
       <ul class="list-inline dev-icons">
         <li title=" Github " class="icons list-inline-item">
           <font-awesome :icon="['fab', 'github']" />
@@ -424,7 +424,7 @@ Vous pouvez tout à fait changer le nom des fichiers.
 ```
 
 - **Nav.vue**
-  Ce fichier ci nous servira pour créer le menu.
+  Ce fichier ci nous servira pour le menu.
 
 ```sh
   <template>
@@ -524,6 +524,8 @@ Se rendre dans le dossier **/styles** et créer 4 fichiers :
 - \_nav.scss (va servir pour tout le css du menu)
 - main.scss ( on va y importer les deux premiers fichiers scss)
 
+**Au départ** , pour avoir un style déja pré-défini comme le miens il vous suffit de copier coller le contenu de mon SCSS Global et Nav qui sont disponible sur le github.
+
 Ensuite, ouvrir le fichier **main.scss** et copier-coller le code suivant.
 
 ```sh
@@ -542,7 +544,7 @@ Maintenant que tous les dossiers et fichiers sont créés, nous pouvons commence
 
 ### Template Tag
 
-Copier coller le code suiavnt dans le fichier **Index.vue** entre les balises **< template >**.
+Copier coller le code suivant dans le fichier **Index.vue** entre les balises **< template >**.
 
 ```sh
   <Layout>
@@ -704,7 +706,7 @@ Pour déployer ton cv sur netlify il faut que tu ais un repository sur GitHub co
 
 - Créer un repository
 - Clôner ton repository localement avec la commande : "git clone ..."
-- Copier-coller le contenu de ton dossier projet (mon-premier-cv-gridsome) dans le nouveau dossier.
+- Copier-coller le contenu de ton dossier projet (mon-premier-cv-gridsome) dans le nouveau dossier. (même les fichiers cachés)
 - Add, commit et push.
 
 **S'enregistrer sur netlify**
@@ -727,6 +729,6 @@ Sous **Publish directory** tapez:`dist`
 
 **Changements et mise à jours**
 
-Afin de changer ou mettre à jour so CV, il suffira de `add` , `commit` et `push` les changements.
+Afin de changer ou mettre à jour ton CV, il te suffira de `add` , `commit` et `push` les changements.
 
 ---
