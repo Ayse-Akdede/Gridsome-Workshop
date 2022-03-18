@@ -29,7 +29,7 @@
 
 ## 1. Mon cv
 
-Voici le [lien](https://first-gridsome-cv-akdede.netlify.com/) vers mon cv en ligne réalisé avec gridsome.
+Voici le lien vers mon cv en ligne réalisé avec gridsome.
 
 ---
 
